@@ -15,7 +15,7 @@ namespace FunctionAppTest
             log.Info("C# HTTP trigger function processed a request.");
 
             // Fetching the name from the path parameter in the request URL
-            return req.CreateResponse(HttpStatusCode.OK, "Hello!! Your Name is" + name);
+            return req.CreateResponse(HttpStatusCode.OK, $"Ç±ÇÒÇ…ÇøÇÌÅBÇ†Ç»ÇΩÇÃñºëOÇÕ{name}Ç≈Ç∑ÅB");
         }
     }
 }
